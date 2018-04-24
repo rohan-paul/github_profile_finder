@@ -1,0 +1,21 @@
+/* Overriding some of Bootstarp default styling
+https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height */
+
+.navbar {
+    min-height: 50px;
+  }
+
+  .navbar-pink {
+    background-color: rgb(255, 121, 185);
+    border-color: rgb(194, 97, 135);
+    border-radius: 0;
+    border-top-width: 0;
+    color: rgb(255, 255, 255);
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
